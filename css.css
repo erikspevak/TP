@@ -1,0 +1,201 @@
+html{
+font-family:Impact, Charcoal, sans-serif;
+}
+header{
+  background-color: #1f232c;
+  overflow: hidden;
+}
+.menu {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:24px;
+  padding-top:22px;
+  hover.color:green;
+}
+header a.active {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:24px;
+  padding-top:22px;
+  hover.color:green;
+  color: red;
+}
+.menu:hover {
+  color: red
+}
+p.test{
+	font-size:24px;
+	color: white;
+}
+.menu_left {
+	display: inline-block;	
+	padding-left:5%;
+
+	float: left;
+	
+}
+.menu_middle{
+	display: inline-block;
+	padding-left:1%;
+	width: 15%;
+}
+.menu_right{
+	display: inline-block;
+	padding-right:5%;
+	float: right;
+}
+div.home{
+
+}
+p.home{
+	width:40%;
+	color:white;
+	font-size:50px;
+	padding-top:15%;
+	padding-left:20%;
+}
+body.home{
+	background-image:url('./img/bg3.gif');
+    	background-size:cover;
+}
+body{
+	margin:0;
+	background-color:#2677b6;
+}
+
+.about_left{
+	width:50%;
+	float:left;
+	--background-color: #1f232c;
+	min-height:68vh;
+}
+.about_left h1{
+	color:red;
+	font-size:50px;
+	padding-top:10%;
+	padding-left:10%;
+	padding-right:20%;
+}
+.about_left p{
+	color:white;
+	font-size:40px;
+	padding-left:10%;
+	padding-right:20%;
+}
+.about_right{
+	width:50%;
+	float:right;
+	min-height: 68vh;
+}
+.tím_foto{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5%;
+}
+.about_us h2{
+	font-size:35px;
+	color:red;
+}
+.about_us p{
+	color:white;
+	font-size:28px;
+}
+.about_us .user_left{
+	min-height: 34vh;
+	width:50%;
+	float:left;
+	text-align: center;
+}
+.about_us .user_right{
+	min-height: 34vh;
+	width:50%;
+	float:right;
+	text-align: center;
+}
+.foto{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plan_left{
+	float:left;
+	min-height:75vh;
+	width:40%;
+	text-align:center;
+	background-color:#2677b6;
+}
+.plan_right{
+	float:right;
+	background-image:url("./img/school.jpg");
+    background-size:cover;
+	min-height:75vh;
+	width:60%;
+}
+
+.plan_left h1{
+	padding-top:40%;
+}
+.timeline_left{
+	padding-top:3%;
+	float:left;
+	width:40%;
+	text-align:center;
+	min-height:15vh;
+	background-color:#2677b6;
+}
+.timeline_right{
+	padding-top:3%;
+	background-color:#2677b6;
+	float:right;
+	width:60%;
+	min-height:15vh;
+}
+.timeline_left h2{
+	padding-top:10%;
+}
+.work_plan{
+	width:50%;
+	padding-left:25%;
+	align:center;
+}
+.plan_left h1{
+	color:red;
+	font-size:50px;
+}
+body.plan{
+	background-color:white;
+}
+.documents .top{
+	text-align:center;
+	color:red;
+	font-size:50px;
+	margin-top:15%;
+	margin-bottom:15%;
+}
+.documents .bottom{
+	width: 50%;
+	padding-left: 25%;
+}
+.zapisnica, .retrospektiva, .metodika, .dokumentacia{
+	border-style: solid;
+  border-color: #92a8d1;
+	width: 45%;
+	font-size:25px;
+	color:white;
+	height: 300px; 
+	overflow-y: scroll;
+	margin-bottom:5%;
+	text-align:center;
+}
+.zapisnica, .metodika{
+	float:left;
+}
+.retrospektiva, .dokumentacia{
+	float:right;
+}
