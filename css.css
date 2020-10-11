@@ -175,7 +175,7 @@ body{
 	font-size:50px;
 }
 body.plan{
-	background-color:white;
+	--background-color:white;
 }
 .documents .top{
 	text-align:center;
