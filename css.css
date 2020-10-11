@@ -98,25 +98,31 @@ body{
   margin-right: auto;
   margin-top:5%;
 }
-.about_us h2{
+.about_us2 h2{
 	font-size:35px;
 	color:red;
 }
-.about_us p{
+.about_us2 p{
 	color:white;
 	font-size:28px;
 }
-.about_us .user_left{
+.about_us2 .user_left{
+	--margin-left:25%;
 	min-height: 34vh;
-	width:50%;
+	width:25%;
 	float:left;
 	text-align: center;
 }
-.about_us .user_right{
+.about_us2 .user_right{
+	--margin-right:25%;
 	min-height: 34vh;
-	width:50%;
-	float:right;
+	width:25%;
+	float:left;
 	text-align: center;
+}
+.about_us2{
+	--margin-left:25%;
+	--margin-right:25%;
 }
 .foto{
 	display: block;
