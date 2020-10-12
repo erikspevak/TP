@@ -210,3 +210,7 @@ body.plan{
 .retrospektiva, .dokumentacia{
 	float:right;
 }
+a.tr{
+	color:white;
+	target="_blank";
+}
