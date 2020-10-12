@@ -60,7 +60,7 @@ p.home{
 	padding-left:20%;
 }
 body.home{
-	background-image:url('./img/bg3.gif');
+	background-image:url('./img/bg4.gif');
     	background-size:cover;
 }
 body{
@@ -185,8 +185,8 @@ body.plan{
 	text-align:center;
 	color:red;
 	font-size:40px;
-	margin-top:12.5%;
-	margin-bottom:12.5%;
+	margin-top:10%;
+	margin-bottom:10%;
 }
 .documents .bottom{
 	width: 50%;
