@@ -125,6 +125,7 @@ body{
 	--margin-right:25%;
 }
 .foto{
+	border-radius: 50%;
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -132,20 +133,20 @@ body{
 .plan_left{
 	float:left;
 	min-height:75vh;
-	width:40%;
+	width:50%;
 	text-align:center;
 	background-color:#242582;
 }
 .plan_right{
 	float:right;
-	background-image:url("./img/school.jpg");
-    background-size:cover;
+	--background-image:url("./img/school.jpg");
+    --background-size:cover;
 	min-height:75vh;
-	width:60%;
+	width:50%;
 }
 
 .plan_left h1{
-	padding-top:40%;
+	padding-top:25%;
 }
 .timeline_left{
 	padding-top:3%;
