@@ -184,22 +184,23 @@ body.plan{
 .documents .top{
 	text-align:center;
 	color:red;
-	font-size:50px;
-	margin-top:15%;
-	margin-bottom:15%;
+	font-size:40px;
+	margin-top:12.5%;
+	margin-bottom:12.5%;
 }
 .documents .bottom{
 	width: 50%;
 	padding-left: 25%;
+	padding-right: 25%;
 }
 .zapisnica, .retrospektiva, .metodika, .dokumentacia{
-	border-style: solid;
-  border-color: #92a8d1;
-	width: 45%;
+	--border-style: solid;
+   -- border-color: #92a8d1;
+	width: 100%;
 	font-size:25px;
 	color:white;
-	height: 400px; 
-	overflow-y: scroll;
+	--height: 400px; 
+	--overflow-y: scroll;
 	margin-bottom:5%;
 	text-align:center;
 }
