@@ -13,7 +13,6 @@ header{
   text-decoration: none;
   font-size:24px;
   padding-top:22px;
-  hover.color:green;
 }
 header a.active {
   float: right;
@@ -22,11 +21,10 @@ header a.active {
   text-decoration: none;
   font-size:24px;
   padding-top:22px;
-  hover.color:green;
-  color: red;
+  color: #ff8533;
 }
 .menu:hover {
-  color: red
+  color: #ff8533
 }
 p.test{
 	font-size:24px;
@@ -53,40 +51,53 @@ div.home{
 
 }
 p.home{
-	width:40%;
-	color:white;
+	width:35%;
+	color:#ff8533;
 	font-size:50px;
 	padding-top:15%;
 	padding-left:20%;
 }
-body.home{
-	background-image:url('./img/bg4.gif');
-    	background-size:cover;
+
+p.home2{
+	width:35%;
+	color:black;
+	font-size:30px;
+	padding-left:20%;
 }
+
 body{
 	margin:0;
-	background-color:#242582;
+	background-image:url('./img/bg5.jpeg');
+	background-size:cover;
 }
 
 .about_left{
 	width:50%;
 	float:left;
-	--background-color: #1f232c;
 	min-height:68vh;
 }
 .about_left h1{
-	color:red;
+	color: #ff8533;
 	font-size:50px;
-	padding-top:10%;
+	padding-top:5%;
 	padding-left:10%;
 	padding-right:20%;
 }
 .about_left p{
-	color:white;
-	font-size:40px;
+	color:#1f232c;
+	font-size:35px;
 	padding-left:10%;
 	padding-right:20%;
 }
+
+.user_left p{
+	padding-left: 5%
+}
+
+.user_right p{
+	padding-right: 5%
+}
+
 .about_right{
 	width:50%;
 	float:right;
@@ -98,13 +109,13 @@ body{
   margin-right: auto;
   margin-top:5%;
 }
-.about_us2 h2{
+.about_us2 h1{
 	font-size:35px;
-	color:red;
+	color:#ff8533;
 }
 .about_us2 p{
-	color:white;
-	font-size:28px;
+	color: #1f232c;
+	font-size:25px;
 }
 .about_us2 .user_left{
 	--margin-left:25%;
@@ -125,6 +136,7 @@ body{
 	--margin-right:25%;
 }
 .foto{
+	margin-top:7%;
 	border-radius: 50%;
 	display: block;
   margin-left: auto;
@@ -135,39 +147,34 @@ body{
 	min-height:75vh;
 	width:50%;
 	text-align:center;
-	background-color:#242582;
 }
 .plan_right{
 	float:right;
-	--background-image:url("./img/school.jpg");
-    --background-size:cover;
 	min-height:75vh;
 	width:50%;
 }
 
-.plan_left h1{
-	padding-top:25%;
+.plan_left p{
+	font-size:80px;
+	padding-top:15%;
 }
 .timeline_left{
-	padding-top:3%;
 	float:left;
 	width:40%;
 	text-align:center;
 	min-height:15vh;
-	background-color:#242582;
 }
 
 .timeline_right{
-	color:white;
-	padding-top:3%;
-	background-color:#242582;
+	font-size:20px;
+	color:#1f232c;
 	float:right;
 	width:60%;
 	min-height:15vh;
 }
-.timeline_left h2{
-	padding-top:10%;
-	color:red;
+.timeline_left p{
+	font-size:40px;
+	color:#ff8533;
 }
 .work_plan{
 	width:50%;
@@ -183,7 +190,7 @@ body.plan{
 }
 .documents .top{
 	text-align:center;
-	color:red;
+	color:#ff8533;
 	font-size:40px;
 	margin-top:10%;
 	margin-bottom:10%;
@@ -194,13 +201,9 @@ body.plan{
 	padding-right: 25%;
 }
 .zapisnica, .retrospektiva, .metodika, .dokumentacia{
-	--border-style: solid;
-   -- border-color: #92a8d1;
 	width: 100%;
 	font-size:25px;
-	color:white;
-	--height: 400px; 
-	--overflow-y: scroll;
+	color:#1f232c;
 	margin-bottom:5%;
 	text-align:center;
 }
@@ -211,6 +214,5 @@ body.plan{
 	float:right;
 }
 a.tr{
-	color:white;
-	target="_blank";
+	color:#1f232c;
 }
